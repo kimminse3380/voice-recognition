@@ -24,4 +24,3 @@ except sr.UnknownValueError:
     print('인식 실패')
 except sr.RequestError as e:
     print('Error: {0}'.format(e))
-
